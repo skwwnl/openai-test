@@ -20,7 +20,7 @@ def _load_dotenv(path: Path) -> None:
 _load_dotenv(Path(".env"))
 
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
-deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-5")
+deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-5.2-dev")
 api_key = os.getenv("AZURE_OPENAI_API_KEY")
 api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-12-01-preview")
 

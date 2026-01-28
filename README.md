@@ -31,3 +31,4 @@ uv run python main.py
 - `AZURE_OPENAI_API_KEY`
 - `AZURE_OPENAI_API_VERSION` (기본값: `2024-12-01-preview`)
 - `AZURE_OPENAI_DEPLOYMENT` (기본값: `gpt-5`)
+
